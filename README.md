@@ -11,9 +11,13 @@ Below I will list exactly which wheels fit on your card and other cards might fi
 
 ### Script for auto-installation, this script automatically detects the GPU in the system and installs the appropriate xformers wheels 
 
-1) [paperspace_xformers_intall.py](https://github.com/daswer123/xformers_prebuild_wheels/raw/main/paperspace_xformers_intall.py) - This script automatically detects the GPU and installs the appropriate wheels, works on **paperspace** includes all free GPU level PRO
+[paperspace_xformers_intall.py](https://github.com/daswer123/xformers_prebuild_wheels/raw/main/paperspace_xformers_intall.py) - This script automatically detects the GPU and installs the appropriate wheels, works on **paperspace** includes all free GPU level PRO
+**Type these commands in the notepad for auto-installation**
 
-2) google_xformers_install.py - also detects GPU and install wheels
+`!wget https://github.com/daswer123/xformers_prebuild_wheels/raw/main/paperspace_xformers_intall.py -O paperspace_xformers_intall.py`
+
+`!python paperspace_xformers_intall.py`
+
 
 # Paperspace GPU's
 
